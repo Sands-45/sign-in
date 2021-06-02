@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap);
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+.first-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+/*Menu*/
+.menu {
+  background-color: cornflowerblue;
+  height: auto;
+}
+.menu h2 {
+  text-align: center;
+  border-bottom-style: double;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  display: grid;
+  grid-template-rows: 6, 1fr;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: black;
+}
+.menu a:hover {
+  background-color: black;
+  color: white;
+}
+.menu .active {
+  background-color: black;
+  color: white;
+}
+/*End of Menu*/
+
+/*Welcome*/
+.main {
+  background-image: linear-gradient(to top, rgb(150, 181, 207), lightblue);
+}
+.main .welcome {
+  text-align: center;
+  background-color: rgba(13, 110, 139, 0.164);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px;
+}
+.welcome h1 {
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+}
+.welcome span {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+h1 img {
+  position: relative;
+  height: 50px;
+}
+.logo img {
+  position:relative;
+  float:bottom;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  border: 2px double;
+  border-radius:10px;
+  height:15%;
+  top:350px;
+  
+}
+/* End of Welcome */
+
+/*Illustartions*/
+.illustations {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.illustations img {
+  width: 100%;
+}
+/*End of Illustartions*/
+
+.about {
+  text-align: center;
+  border: solid 1px;
+  border-radius: 10px;
+   width:fit-content;
+   padding:10px;
+   display:flex;
+   margin: 0 auto;
+   justify-content: center;
+   text-decoration: none;
+   color: black;
+}
+.about:hover {
+  background-color:rgba(100, 148, 237, 0.486);
+}
+p{
+  text-align: center;
+  padding: 10px;
+  border: 1px ;
+  border-radius: 5px;
+  margin:10px;
+}
+footer a{
+  text-decoration: none;
+  width: fit-content;
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  border: 1px solid;
+ padding: 10px;
+ color:black;
+ border-radius: 5px;
+ background-color: cornflowerblue;
+}
+
+footer a:hover {
+  background-color:rgba(100, 148, 237, 0.486);
+  color:black;
+}
+footer img{
+  height:30px;
+  letter-spacing:1px;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+footer{
+  padding-bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

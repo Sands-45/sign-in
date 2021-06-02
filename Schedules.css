@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap);
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+.first-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+/*Menu*/
+.menu {
+  background-color: cornflowerblue;
+  height: 110%;
+}
+.menu h2 {
+  text-align: center;
+  border-bottom-style: double;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menu a {
+  display: grid;
+  grid-template-rows: 6, 1fr;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: black;
+}
+.menu a:hover {
+  background-color: black;
+  color: white;
+}
+.menu .active {
+  background-color: black;
+  color: white;
+}
+/*End of Menu*/
+
+/*Welcome*/
+.main {
+  background-image: linear-gradient(to top, white, lightblue);
+}
+.main .welcome {
+  text-align: center;
+  background-color: rgba(13, 110, 139, 0.164);
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px;
+}
+.welcome h1 {
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+}
+.welcome span {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.welcome img {
+  position: relative;
+  height: 50px;
+}
+/* End of Welcome */
+iframe {
+  width: 80%;
+ margin:0 auto;
+ display: flex;
+ justify-content: center;
+ margin-top: 30px;
+}
+/*Dashboard*/
+
+/*End of Dashboard*/
+
+.about {
+  text-align: center;
+  border: solid 1px;
+  border-radius: 10px;
+   width:fit-content;
+   padding:10px;
+   display:flex;
+   margin: 0 auto;
+   justify-content: center;
+   text-decoration: none;
+   color: black;
+}
+.about:hover {
+  background-color:rgba(100, 148, 237, 0.486);
+}
+p{
+  text-align: center;
+  padding: 30px;
+}
