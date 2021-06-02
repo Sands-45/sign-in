@@ -103,7 +103,7 @@ label {
   border: 1px solid lightgrey;
   border-radius: 10px;
   animation-name: box;
-  animation-duration: 0.5s;
+  animation-duration: .3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   position: fixed;
@@ -116,16 +116,19 @@ label {
 }
 @keyframes box {
   0% {
-    border-bottom: 1px solid black;
+	border-bottom: 1px transparent;
   }
-  40% {
+  15% {
     border-left: 1px solid black;
   }
-  80% {
+  50% {
     border-top: 1px solid black;
   }
-  100% {
+  80% {
     border-right: 1px solid black;
+  }
+  100% {
+    border-bottom: 1px solid black;
   }
 }
 #box {
