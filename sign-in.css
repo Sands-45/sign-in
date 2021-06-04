@@ -88,6 +88,7 @@ label {
   border-radius: 10px;
   margin-right: 4%;
   margin-left: 4%;
+  word-wrap:no-wrap;
 }
 #form a {
   text-decoration: none;
